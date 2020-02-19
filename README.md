@@ -23,6 +23,6 @@ Document Index:
 
 ## Releases
 
-| Tag                                  | gcloud      | azure-cli | awscli    | terraform | date      |
-|--------------------------------------|-------------|-----------|-----------|-----------|-----------|
-| `infracamp/kickstart-flavor-sdi:2.0` | 281.0.0     | 2.1.0     | 1.14.44   | v0.12.20  | 02/2020   |
+| Tag                                     | gcloud      | azure-cli | awscli    | terraform | date      |
+|-----------------------------------------|-------------|-----------|-----------|-----------|-----------|
+| `infracamp/kickstart-flavor-sdi:2.0.1`  | 281.0.0     | 2.1.0     | 1.14.44   | v0.12.20  | 02/2020   |
