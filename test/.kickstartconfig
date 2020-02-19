@@ -1,0 +1,8 @@
+
+# Set the container-name to fix value
+CONTAINER_NAME=flavor-sdi
+
+
+# Don't pull from the internet
+OFFLINE_MODE=1
+

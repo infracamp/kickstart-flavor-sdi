@@ -14,6 +14,7 @@ Document Index:
 ## Contains
 
 - `gcloud`
+- `azurecli`
 - `docker-machine`
 - `terraform`
 
