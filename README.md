@@ -18,6 +18,8 @@ Document Index:
 - `awscli`: Amazon Webservices
 - `docker-machine`
 - `terraform`
+- 'docker'
+- 'kubectl'
 
 ## Releases
 
