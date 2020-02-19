@@ -7,7 +7,7 @@
 
 set -e
 
-sudo apt-get update && sudo apt-get -y install lsb-release gnupg2 docker.io pwgen ccrypt jq
+sudo apt-get update && sudo apt-get -y install lsb-release gnupg2 docker.io pwgen ccrypt jq awscli
 
 
 

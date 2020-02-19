@@ -14,7 +14,8 @@ Document Index:
 ## Contains
 
 - `gcloud`
-- `azurecli`
+- `azure-cli`: `az` - Command
+- `awscli`: Amazon Webservices
 - `docker-machine`
 - `terraform`
 
