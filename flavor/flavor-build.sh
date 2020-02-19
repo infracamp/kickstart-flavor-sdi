@@ -13,22 +13,14 @@ sudo apt-get update && sudo apt-get -y install lsb-release gnupg2 docker.io pwge
 
 ## Install Azure (manual update)
 #
-# Azure will install by default to /opt and won't be told to not do so.
-# So we have to do the by user install running
-#
-# curl -L https://aka.ms/InstallAzureCli | bash
-#
-# and then
-#
-# tar -czf /opt/azure-cli.tar.gz /home/user/lib
-#
-# Copy it to /flavor
+# see BUILD_README.md on how to update
 
 sudo apt-get install -y libssl-dev libffi-dev python3-dev build-essential
 
 tar -xzf /kickstart/flavor/azure-cli.tar.gz -C /
-sudo ln -s /home/user/lib/azure-cli/bin/az /usr/bin/az
-
+sudo ln -s /usr/azure-cli/az /usr/bin/az
+sudo chown -R root:root /usr/azure-cli
+sudo chmod -R 755 /usr/azure-cli
 
 
 # Create environment variable for correct distribution
