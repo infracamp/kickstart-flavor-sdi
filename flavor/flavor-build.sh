@@ -61,4 +61,5 @@ sudo unzip /tmp/terraform.zip -d /usr/bin
 rm /tmp/terraform.zip
 
 
-
+kubectl completion bash > /etc/bash_completion.d/kubectl
+terraform -install-autocomplete
