@@ -62,4 +62,4 @@ rm /tmp/terraform.zip
 
 
 kubectl completion bash > /etc/bash_completion.d/kubectl
-terraform -install-autocomplete
+sudo -u user terraform -install-autocomplete
