@@ -63,3 +63,5 @@ rm /tmp/terraform.zip
 
 kubectl completion bash > /etc/bash_completion.d/kubectl
 sudo -u user terraform -install-autocomplete
+
+sudo -u user composer global require infracamp/cloudia
