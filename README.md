@@ -20,6 +20,7 @@ Document Index:
 - `terraform`
 - 'docker'
 - 'kubectl'
+- [cloudIA](https://cloudia.infracamp.org)
 
 ## Releases
 
