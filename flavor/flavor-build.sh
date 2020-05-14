@@ -69,6 +69,6 @@ kubectl completion bash > /etc/bash_completion.d/kubectl
 sudo -u user terraform -install-autocomplete
 
 # Install cloudia - use -iu to also change the shell
-sudo -iu user composer global require infracamp/cloudia -d /home/user
+sudo -iu user composer global require infracamp/cloudia
 
 
