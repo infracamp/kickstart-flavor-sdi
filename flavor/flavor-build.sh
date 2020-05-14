@@ -7,6 +7,10 @@
 
 set -e
 
+
+
+
+
 sudo apt-get update && sudo apt-get -y install lsb-release gnupg2 docker.io pwgen ccrypt jq awscli iputils-ping dnsutils
 
 
@@ -64,5 +68,7 @@ rm /tmp/terraform.zip
 kubectl completion bash > /etc/bash_completion.d/kubectl
 sudo -u user terraform -install-autocomplete
 
-chown -R user /home/user
-sudo -u user composer global require infracamp/cloudia
+# Install cloudia - use -iu to also change the shell
+sudo -iu user composer global require infracamp/cloudia -d /home/user
+
+
