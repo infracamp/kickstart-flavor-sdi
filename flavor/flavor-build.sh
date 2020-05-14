@@ -13,8 +13,6 @@ set -e
 
 sudo apt-get update && sudo apt-get -y install lsb-release gnupg2 docker.io pwgen ccrypt jq awscli iputils-ping dnsutils php7.2-mbstring
 
-
-
 ## Install Azure (manual update)
 #
 # see BUILD_README.md on how to update
